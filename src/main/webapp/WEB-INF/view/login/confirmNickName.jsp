@@ -12,7 +12,7 @@
 </head>
 <body>
 <%
-    String nickname = request.getParameter("Nickname");
+    String nickname = request.getParameter("nickname");
     MemberDAO dao = MemberDAO.getInstance();
     boolean result = dao.confirmNickName(nickname);
 

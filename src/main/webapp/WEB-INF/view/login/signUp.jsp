@@ -81,7 +81,7 @@
             return;
         }
         url = "confirmId.do?id=" + document.joinform.id.value;
-        open(url, "confirm",
+        open(url, "confirmId",
             "toolbar = no,location = no, status = no, menubar = no, scrollbars = no, resizable = no, width = 300, height = 200");
     }
     function confirmNickName() {
@@ -89,8 +89,8 @@
             alert("닉네임을 입력하세요")
             return;
         }
-        url = "confirmNickName.do?id=" + document.joinform.nickname.value;
-        open(url, "confirm",
+        url = "confirmNickName.do?nickname=" + document.joinform.nickname.value;
+        open(url, "confirmNickname",
             "toolbar = no,location = no, status = no, menubar = no, scrollbars = no, resizable = no, width = 300, height = 200");
     }
     function getGender() {
